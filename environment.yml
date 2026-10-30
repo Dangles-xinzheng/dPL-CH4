@@ -1,0 +1,17 @@
+name: dPL-CH4
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - netCDF4
+  - matplotlib
+  - pip
+  - pip:
+      - jax==0.4.23
+      - jaxlib==0.4.23
+      - optax
+      - chex

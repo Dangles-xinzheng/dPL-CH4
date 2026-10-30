@@ -1,0 +1,161 @@
+{
+  "version": 2,
+  "variables": [
+    {
+      "name": "annual_mean_temp",
+      "transform": "none",
+      "mean": 267.71153467418736,
+      "std": 24.799150777532983
+    },
+    {
+      "name": "annual_total_precip",
+      "transform": "log1p",
+      "mean_log": 5.65287639352153,
+      "std_log": 1.3849633087252176
+    },
+    {
+      "name": "mtdq",
+      "transform": "none",
+      "mean": 258.1159092703639,
+      "std": 26.208894660194918
+    },
+    {
+      "name": "pwtm",
+      "transform": "log1p",
+      "mean_log": 3.784383260862856,
+      "std_log": 1.3938030163769182
+    },
+    {
+      "name": "pwtq",
+      "transform": "log1p",
+      "mean_log": 4.708640118308951,
+      "std_log": 1.435061397511913
+    },
+    {
+      "name": "mean_temp_spring",
+      "transform": "none",
+      "mean": 266.36427943410683,
+      "std": 26.657587806187
+    },
+    {
+      "name": "mean_temp_summer",
+      "transform": "none",
+      "mean": 271.688760191088,
+      "std": 30.11783040259743
+    },
+    {
+      "name": "mean_temp_fall",
+      "transform": "none",
+      "mean": 267.87000763042266,
+      "std": 25.250542401421285
+    },
+    {
+      "name": "mean_temp_winter",
+      "transform": "none",
+      "mean": 264.9099383440864,
+      "std": 21.409516317361792
+    },
+    {
+      "name": "total_precip_spring",
+      "transform": "log1p",
+      "mean_log": 4.218349390630941,
+      "std_log": 1.3330141326138076
+    },
+    {
+      "name": "total_precip_summer",
+      "transform": "log1p",
+      "mean_log": 4.214727010311694,
+      "std_log": 1.6009494893713792
+    },
+    {
+      "name": "total_precip_fall",
+      "transform": "log1p",
+      "mean_log": 4.213953017004887,
+      "std_log": 1.406041291804533
+    },
+    {
+      "name": "total_precip_winter",
+      "transform": "log1p",
+      "mean_log": 3.897507715934132,
+      "std_log": 1.4726656147878932
+    },
+    {
+      "name": "elevation",
+      "transform": "none",
+      "mean": 638.8011864942662,
+      "std": 825.6031915515445
+    },
+    {
+      "name": "twi",
+      "transform": "none",
+      "mean": 24.17748260318321,
+      "std": 1.6016021007586057
+    },
+    {
+      "name": "soc",
+      "transform": "none",
+      "mean": 575.9411018192192,
+      "std": 547.0026478706461
+    },
+    {
+      "name": "clay",
+      "transform": "none",
+      "mean": 244.78187673346983,
+      "std": 76.83292581274974
+    },
+    {
+      "name": "sand",
+      "transform": "none",
+      "mean": 440.91018451999633,
+      "std": 130.254492343579
+    },
+    {
+      "name": "water_occurrence_frequency",
+      "transform": "none",
+      "mean": 10.3731665780946,
+      "std": 25.36420776945824
+    },
+    {
+      "name": "frac_needleleaf",
+      "transform": "none",
+      "mean": 2.713763637928097,
+      "std": 11.616931900735693
+    },
+    {
+      "name": "frac_broadleaf",
+      "transform": "none",
+      "mean": 8.655636049533957,
+      "std": 24.550132845732325
+    },
+    {
+      "name": "frac_mixed_shrub",
+      "transform": "none",
+      "mean": 15.476314450043857,
+      "std": 30.349842813404578
+    },
+    {
+      "name": "frac_grass_savanna",
+      "transform": "none",
+      "mean": 42.65494347505336,
+      "std": 40.36614313817307
+    },
+    {
+      "name": "frac_wetland",
+      "transform": "none",
+      "mean": 1.349461204427975,
+      "std": 7.415640338788958
+    },
+    {
+      "name": "frac_crop",
+      "transform": "none",
+      "mean": 8.805590192978112,
+      "std": 25.120589267052882
+    },
+    {
+      "name": "max_lai",
+      "transform": "none",
+      "mean": 3.164888716975039,
+      "std": 1.810376763592396
+    }
+  ]
+}

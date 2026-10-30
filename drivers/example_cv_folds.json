@@ -1,0 +1,27 @@
+{
+  "co2_sites": [],
+  "co2_for_train": [],
+  "val_co2_sites": [],
+  "ch4_sites": [
+    "BW-Gum",
+    "BW-Nxr",
+    "ID-Pag"
+  ],
+  "train_only_ch4": [],
+  "n_folds": 1,
+  "folds": [
+    {
+      "fold": 0,
+      "train_ch4": [
+        "BW-Gum",
+        "ID-Pag"
+      ],
+      "val_ch4": [
+        "BW-Gum"
+      ],
+      "test_ch4": [
+        "BW-Nxr"
+      ]
+    }
+  ]
+}
